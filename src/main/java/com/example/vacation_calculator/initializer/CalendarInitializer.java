@@ -6,7 +6,6 @@ import com.example.vacation_calculator.repository.WorkCalendarRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -79,6 +78,5 @@ public class CalendarInitializer implements CommandLineRunner {
             }
         }
         calendarRepository.saveAll(days);
-
     }
 }

@@ -1,7 +1,6 @@
 package com.example.vacation_calculator.model;
 
 import lombok.*;
-
 import javax.persistence.*;
 import java.time.LocalDate;
 

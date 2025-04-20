@@ -18,11 +18,14 @@ docker-compose up -d
 
 Приложение будет запущено на localhost:8080 (по умолчанию).
 
-3. Стек используемых технологий: Java 11, Spring Boot 2.7+ (Web, Data JPA), PostgreSQL 12.3, Lombok,
+3. К приложению написаны unit тесты vacation_calculator\src\test\java\com\example\vacation_calculator
+\VacationCalculatorApplicationTests.java
 
-Maven, Docker Compose.
+4. Стек используемых технологий: Java 11, Spring Boot 2.7+ (Web, Data JPA), PostgreSQL 12.3, Lombok,
 
-4. Описание логики работы приложения.
+Maven, Docker Compose, Mockito.
+
+5. Описание логики работы приложения.
 
 Приложение предоставляет API для рассчёта суммы отпускных по средней зарплате за последние 12 месяцев. 
 
